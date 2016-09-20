@@ -141,6 +141,10 @@
                "name": "APP_OPTIONS"
             },
             {
+               "description": "Java options. These options will be passed to the Java ommand line",
+               "name": "JAVA_OPTIONS"
+            },
+            {
                "description": "Github trigger secret",
                "name": "GITHUB_TRIGGER_SECRET",
                "from": "[a-zA-Z0-9]{8}",
@@ -1136,6 +1140,10 @@
             {
                "description": "Application options. These options will be passed to the Wildfly Swarm command line",
                "name": "APP_OPTIONS"
+            },
+            {
+               "description": "Java options. These options will be passed to the Java ommand line",
+               "name": "JAVA_OPTIONS"
             },
             {
                "description": "Github trigger secret",
