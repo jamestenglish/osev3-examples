@@ -33,7 +33,7 @@
             "source": {
                "type": "Git",
                "git": {
-                  "uri": "https://github.com/jorgemoralespou/osev3-examples.git",
+                  "uri": "https://github.com/jamestenglish/osev3-examples.git",
                   "ref": "master"
                },
                "contextDir": "spring-boot/springboot-sti"
@@ -96,17 +96,17 @@
          "kind": "Template",
          "apiVersion": "v1",
          "metadata": {
-            "name": "springboot-helloworld-maven",
+            "name": "springboot-maven",
             "annotations": {
-               "description": "Sample Spring Boot helloworld built with maven",
+               "description": "Sample Spring Boot built with maven",
                "iconClass": "icon-jboss",
                "tags": "instant-app,springboot,maven,java"
             },
             "namespace": "openshift"
          },
          "labels": {
-            "application": "springboot-helloworld-maven",
-            "createdBy": "template-springboot-helloworld-maven"
+            "application": "springboot-maven",
+            "createdBy": "template-springboot-maven"
          },
          "parameters": [
             {
@@ -124,7 +124,7 @@
             {
                "description": "Git source URI for application",
                "name": "GIT_URI",
-               "value": "https://github.com/jorgemoralespou/osev3-examples.git"
+               "value": "https://github.com/jamestenglish/osev3-examples.git"
             },
             {
                "description": "Git branch/tag reference",
@@ -339,17 +339,17 @@
          "kind": "Template",
          "apiVersion": "v1",
          "metadata": {
-            "name": "springboot-helloworld-gradle",
+            "name": "springboot-gradle",
             "annotations": {
-               "description": "Sample Spring Boot helloworld built with gradle",
+               "description": "Sample Spring Boot built with gradle",
                "iconClass": "icon-jboss",
                "tags": "instant-app,springboot,gradle,java"
             },
             "namespace": "openshift"
          },
          "labels": {
-            "application": "springboot-helloworld-gradle",
-            "createdBy": "template-springboot-helloworld-gradle"
+            "application": "springboot-gradle",
+            "createdBy": "template-springboot-gradle"
          },
          "parameters": [
             {
@@ -367,7 +367,7 @@
             {
                "description": "Git source URI for application",
                "name": "GIT_URI",
-               "value": "https://github.com/jorgemoralespou/osev3-examples.git"
+               "value": "https://github.com/jamestenglish/osev3-examples.git"
             },
             {
                "description": "Git branch/tag reference",
@@ -613,7 +613,7 @@
             {
                "description": "Git source URI for application",
                "name": "GIT_URI",
-               "value": "https://github.com/jorgemoralespou/osev3-examples.git"
+               "value": "https://github.com/jamestenglish/osev3-examples.git"
             },
             {
                "description": "Git branch/tag reference",
@@ -1044,7 +1044,7 @@
             "source": {
                "type": "Git",
                "git": {
-                  "uri": "https://github.com/jorgemoralespou/osev3-examples.git",
+                  "uri": "https://github.com/jamestenglish/osev3-examples.git",
                   "ref": "master"
                },
                "contextDir": "wildfly-swarm/wildfly-swarm-s2i"
@@ -1096,17 +1096,17 @@
          "kind": "Template",
          "apiVersion": "v1",
          "metadata": {
-            "name": "wildfly-swarm-helloworld-maven",
+            "name": "wildfly-swarm-maven",
             "annotations": {
-               "description": "Sample Wildfly Swarm helloworld built with maven",
+               "description": "Sample Wildfly Swarm built with maven",
                "iconClass": "icon-jboss",
                "tags": "instant-app,wildfly-swarm,maven,java"
             },
             "namespace": "openshift"
          },
          "labels": {
-            "application": "wildfly-swarm-helloworld-maven",
-            "createdBy": "template-wildfly-swarm-helloworld-maven"
+            "application": "wildfly-swarm-maven",
+            "createdBy": "template-wildfly-swarm-maven"
          },
          "parameters": [
             {
@@ -1121,7 +1121,7 @@
             {
                "description": "Git source URI for application",
                "name": "GIT_URI",
-               "value": "https://github.com/jorgemoralespou/osev3-examples.git"
+               "value": "https://github.com/jamestenglish/osev3-examples.git"
             },
             {
                "description": "Git branch/tag reference",
@@ -1336,17 +1336,17 @@
          "kind": "Template",
          "apiVersion": "v1",
          "metadata": {
-            "name": "wildfly-swarm-helloworld-gradle",
+            "name": "wildfly-swarm-gradle",
             "annotations": {
-               "description": "Sample Wildfly Swarm helloworld built with gradle",
+               "description": "Sample Wildfly Swarm built with gradle",
                "iconClass": "icon-jboss",
                "tags": "instant-app,wildfly-swarm,gradle,java"
             },
             "namespace": "openshift"
          },
          "labels": {
-            "application": "wildfly-swarm-helloworld-gradle",
-            "createdBy": "template-wildfly-swarm-helloworld-gradle"
+            "application": "wildfly-swarm-gradle",
+            "createdBy": "template-wildfly-swarm-gradle"
          },
          "parameters": [
             {
@@ -1361,7 +1361,7 @@
             {
                "description": "Git source URI for application",
                "name": "GIT_URI",
-               "value": "https://github.com/jorgemoralespou/osev3-examples.git"
+               "value": "https://github.com/jamestenglish/osev3-examples.git"
             },
             {
                "description": "Git branch/tag reference",
